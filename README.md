@@ -8,3 +8,5 @@ Note 1 - Collect RF library is finished
 Note 2 - Add routine to use more Networks
 
 Note 3 - Add routine to use 32000000
+
+Note 4 - Add routine to use DS sensor
