@@ -7,4 +7,4 @@ Note 1 - Collect RF library is finished
 
 Note 2 - Add routine to use more Networks
 
-Note 3 - 
+Note 3 - Add routine to use 32000000
