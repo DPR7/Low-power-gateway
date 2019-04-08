@@ -1,0 +1,24 @@
+[
+    {
+        "id": "f543fe1e.12be3",
+        "type": "function",
+        "z": "d1c01419.be42c8",
+        "name": "",
+        "func": "var payload=msg.payload;\npayload = payload - 34000;\npayload = payload / 10;\nmsg.payload=payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 672.9999389648438,
+        "y": 175.88888263702393,
+        "wires": [
+            [
+                "2fefd107.fdc09e"
+            ]
+        ]
+    }
+]
+
+var payload=msg.payload;
+payload = payload - 34000;
+payload = payload / 10;
+msg.payload=payload;
+return msg;
