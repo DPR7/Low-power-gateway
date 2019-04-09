@@ -1,0 +1,50 @@
+[
+    {
+        "id": "bb862c8a.06908",
+        "type": "switch",
+        "z": "9fbab9e8.252508",
+        "name": "Switch",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "35000",
+                "vt": "str"
+            },
+            {
+                "t": "gt",
+                "v": "34000",
+                "vt": "str"
+            },
+            {
+                "t": "gt",
+                "v": "33000",
+                "vt": "str"
+            },
+            {
+                "t": "gt",
+                "v": "31000",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 4,
+        "x": 285,
+        "y": 79,
+        "wires": [
+            [
+                "a247727d.e34d8"
+            ],
+            [
+                "d5d84209.dd7da"
+            ],
+            [
+                "a953db7a.b4eb78"
+            ],
+            [
+                "71d6cc98.8c4974"
+            ]
+        ]
+    }
+]
